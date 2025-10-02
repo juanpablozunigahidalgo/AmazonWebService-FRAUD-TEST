@@ -4,6 +4,7 @@ On 02-10-2025. I got an interview with AMAZON. Berlin. AWS. The position was abo
 In order to show capabilities. I created a theoretical analytical case on fraud. Which involves a DATABASE (DATA SETS). And from that I developed the case to show. 
 Bellow is the "Problem Definition"
 
+# SECTION 1 PROBLEM 
 # Problem definition — AWS Fraud Prevention (Mock Case)
 
 **Author:** AWS Business Engineer - > Juan Pablo Zuniga Hidalgo
@@ -76,3 +77,9 @@ Juan Pablo Zuniga Hidalgo — AWS Business Engineer (juanpablozunigahidalgo@aws.
 4. Create a PR and include screenshots / CSV exports for evidence.
 
 Good luck — think like a fraudster, and then think like an investigator.
+
+
+# STEEP 2 SOLUTION EXPLAINED 
+This app reads a local database of synthetic AWS-style events (logins, IP reputation, EC2 activity, payments, and security findings). It computes account-level risk signals such as failed-login rate, new-country activity, TOR usage and device churn; looks for a specific dangerous pattern where a risky failed login is followed by a burst of EC2 RUN_INSTANCES across multiple regions; groups accounts into clusters and flags anomalies; runs a basic statistical test to see whether flagged accounts have worse payment outcomes; and provides interactive charts and drilldowns so analysts can triage and export evidence. How the app is organized (big picture) Load the data from a local SQLite file. Compute signals for each account (recent failed-login rate, device churn, new-country rate, TOR usage, etc.). 
+Detect compromise patterns: find cases where a risky failed login is followed soon after by many RUN_INSTANCES actions in different regions. Analyze and visualize: produce a time series of failed logins, list top suspicious IPs, show clusters of high-risk accounts and anomaly flags. Correlate with payments: test whether flagged accounts are more likely to have chargebacks or declines. Provide operational outputs: create lists and CSVs for investigators and enable interactive per-account drilldowns. Key building blocks explained for non-programmers Reading the database (read_sql_df and load_tables) 
+What it does: opens the local database file and reads each table (users, logins, ec2_activity, ip_reputation, payments, security_findings) into memory. Why it's important: this is where the app gets the raw evidence (login rows, IP risk data, EC2 actions). If the database file is not in the right place, nothing else works. Analogy: like loading several spreadsheets into an analyst’s workbook. Building account signals (compute_account_signals) What it does: for each account, the app computes several measures over a recent window (default 14 days): failed_login_rate: fraction of login attempts that failed. Higher values suggest brute-force or credential stuffing. mfa_rate: fraction of logins using multi-factor authentication. Low MFA adoption plus high failure rate is risky. device_count: number of unique devices seen recently. Many devices may indicate attacker devices or credential sharing. new_country_rate: fraction of recent login countries that were not seen historically for that account. This flags geographic anomalies. tor_login_count: number of logins from TOR or anonymizing networks. high_risk_ip_share: share of logins that came from IPs rated as high risk. composite: a single, tunable score that combines these signals into a ranking. 
