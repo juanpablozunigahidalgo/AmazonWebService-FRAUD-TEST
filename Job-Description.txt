@@ -1,0 +1,52 @@
+AWS Fraud Analyst II, AWS Fraud Prevention
+Job ID: 3076395 | Amazon Web Services Development Center Germany GmbH
+Description
+As a Business Analyst, you will work closely with Data Scientists to monitor the flavor/ trend of compromise on AWS worldwide and leverage your analytical and data skills to deep dive on a myriad of fraud activity. You will be at the forefront of keeping abreast of trends and fraud issues impacting the Cloud industry to ensure AWS is leading the curve in identifying, mitigating and preventing fraud attacks.
+
+
+
+
+Key job responsibilities
+As a Business Analyst your responsibilities will include:
+
+
+* Identify new and emerging patterns of fraud and compromise and proactively take ad hoc actions to improve efficiency and reduce time to identify new fraud techniques, tactics and procedures.
+* Use statistical analysis to segment customer behavior and develop targeted solutions to prevent sophisticated fraud activity.
+* Report on daily fraud trends and cluster characteristics, perform deep dives and write summaries.
+* Analyze emerging fraud MOs, ad hoc mitigation actions e.g. rule performance trends and communicate it to larger fraud community. Partner with Data Scientists to build long-term counter protections.
+* Contribute and/or lead special projects which reduce fraud related losses, while maintaining focus on a positive customer experience.
+* Design and influence operational best practices within the AWS Fraud Prevention Compromise team.
+* Work with cross-functional teams across Amazon/AWS for collaboration on fraud risks and preventative measures to mitigate fraud risk.
+* Work with stakeholders to drive process improvements that will impact internal and external customers.
+
+
+A day in the life
+Learn and Be Curious. We have a formal mentor search application that lets you find a mentor that works best for you based on location, job family, job level etc. Your manager can also help you find a mentor or two, because two is better than one. In addition to formal mentors, we work and train together so that we are always learning from one another, and we celebrate and support the career progression of our team members.
+
+Inclusion and Diversity. Our team is diverse! We drive towards an inclusive culture and work environment. We are intentional about attracting, developing, and retaining amazing talent from diverse backgrounds. Team members are active in Amazon’s 10+ affinity groups, sometimes known as employee resource groups, which bring employees together across businesses and locations around the world. These range from groups such as the Black Employee Network, Latinos at Amazon, Indigenous at Amazon, Families at Amazon and Engineering, LGBTQ+, Warriors at Amazon (Military), Amazon People With Disabilities, and more.
+
+Learn more about Amazon on our Day 1 Blog: https://blog.aboutamazon.com
+
+About the team
+Would you like to join the team that protects the global AWS platform from fraud? Do you enjoy thinking like a fraudster and using your technical skills to help detect & mitigate AWS accounts from being compromised? If so, AWS Fraud Prevention has an exciting opportunity for you.
+
+You’ll be part of a team of Applied Scientists, Investigations Analysts, and Technical & non-Technical Program Managers. The team’s goal is to identify and neutralize fraudsters from compromising AWS customers’ accounts and engaging in other fraudulent activities on AWS.
+
+Basic Qualifications
+- This role requires you to be a national of an EU member state.
+- Bachelor’s Degree, preferably Bachelor’s Degree, preferably in an analytical field e.g. Economics, Operations, Business, Mathematics, Statistics, Finance or in another related field.
+- 3+ years of experience working in Analytics/Business Intelligence environment.
+- Proficiency in extracting and processing data using SQL/ Excel/ Tableau
+- Detail-oriented and must have an aptitude for solving unstructured problems. The role will require the ability to extract data from various sources and to design/construct/execute complex analyses to come up with data/reports that help solve the business problems.
+- Excellent oral and written communication skills.
+
+Preferred Qualifications
+- Basic experience with scripting languages such as Python and Bash.
+- Experience working with AWS technologies (EC2, CloudTrail, S3, SageMaker, etc.).
+- Previous work as an Analyst in the context of fraud analytics or risk scoring.
+
+Amazon is an equal opportunities employer. We believe passionately that employing a diverse workforce is central to our success. We make recruiting decisions based on your experience and skills. We value your passion to discover, invent, simplify and build. Protecting your privacy and the security of your data is a longstanding top priority for Amazon. Please consult our Privacy Notice (https://www.amazon.jobs/en/privacy_page) to know more about how we collect, use and transfer the personal data of our candidates.
+
+m/w/d
+
+Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.
